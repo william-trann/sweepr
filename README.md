@@ -4,7 +4,7 @@
 
 It is designed to be **backup-first**, **dry-run by default**, and easy to extend through language-specific analyzers.
 
-## Why sweepr?
+## sweepr
 
 - Scans entire folders recursively
 - Supports Python, JavaScript/TypeScript, Go, and Java
@@ -119,8 +119,7 @@ To add a new language:
 
 ## Limitations
 
-sweepr is not a compiler and does not perform whole-program semantic analysis.
-Framework magic, reflection, runtime imports, decorators, metaprogramming, and code generation may hide real usage from static analysis. That is why sweepr keeps many findings in report-only mode.
+sweepr is not a compiler and does not perform whole program semantic analysis, reflection, runtime imports, decorators, and code generation may hide real usage from static analysis. That is why sweepr keeps many findings in report-only mode.
 
 ## License
 
