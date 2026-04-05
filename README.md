@@ -13,6 +13,7 @@ It is designed to be **backup-first**, **dry-run by default**, and easy to exten
 - Makes guardrail smoke tests easy with tiny docs-only changes
 - Keeps review experiments low-risk by staying out of production code
 - Gives protected-branch automation a safe path for verification
+- Lets webhook recovery tests happen without touching runtime behavior
 - Creates backups before modifying files
 - Uses a modular parser architecture so contributors can add more languages
 
