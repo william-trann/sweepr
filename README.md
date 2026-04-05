@@ -12,6 +12,7 @@ It is designed to be **backup-first**, **dry-run by default**, and easy to exten
 - Generates markdown reports for audits and pull requests
 - Makes guardrail smoke tests easy with tiny docs-only changes
 - Keeps review experiments low-risk by staying out of production code
+- Gives protected-branch automation a safe path for verification
 - Creates backups before modifying files
 - Uses a modular parser architecture so contributors can add more languages
 
