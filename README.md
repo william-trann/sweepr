@@ -10,6 +10,8 @@ It is designed to be **backup-first**, **dry-run by default**, and easy to exten
 - Supports Python, JavaScript/TypeScript, Go, and Java
 - Detects unused imports, variables, functions, and classes where confidence is high
 - Generates markdown reports for audits and pull requests
+- Makes guardrail smoke tests easy with tiny docs-only changes
+- Keeps review experiments low-risk by staying out of production code
 - Creates backups before modifying files
 - Uses a modular parser architecture so contributors can add more languages
 
