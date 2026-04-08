@@ -1,2 +1,3 @@
 Archive guardrail smoke test.
 This file exists only to verify that merge blocking fires on a trivial PR.
+Webhook restore verification on 2026-04-08.
