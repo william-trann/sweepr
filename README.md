@@ -6,7 +6,7 @@ It is designed to be **backup-first**, **dry-run by default**, and easy to exten
 
 ## sweepr
 
-- Scans entire folders recursively
+- Scan entire folders recursively
 - Supports Python, JavaScript/TypeScript, Go, and Java
 - Detects unused imports, variables, functions, and classes where confidence is high
 - Generates markdown reports for audits and pull requests
