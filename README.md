@@ -1,6 +1,6 @@
 # sweepr
 
-**sweepr** is a conservative multi-language static analysis CLI for finding and optionally removing safely identifiable unused code.
+**sweepr** is a conservative multi language static analysis CLI for finding and optionally removing safely identifiable unused code.
 
 It is designed to be **backup-first**, **dry-run by default**, and easy to extend through language-specific analyzers.
 
