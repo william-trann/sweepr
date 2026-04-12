@@ -71,7 +71,7 @@ sweepr is intentionally conservative.
 
 ### Report-only candidates
 - Potentially unused private functions and classes
-- JavaScript/TypeScript, Go, and Java findings that are not safe enough to rewrite blindly
+- JavaScript/TypeScript, Go, and Java findings that are not safe enough to rewrite blind
 
 ### Backups
 When `--apply` is used, original files are copied to `code_sifter_backup/` before any edits are written.
