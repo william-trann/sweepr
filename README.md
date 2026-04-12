@@ -122,5 +122,4 @@ To add a new language:
 sweepr is not a compiler and does not perform whole program semantic analysis, reflection, runtime imports, decorators, and code generation may hide  usage from static analysis. That is why sweepr keeps many findings in report-only mode.
 
 ## License
-
 MIT
