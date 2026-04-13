@@ -10,6 +10,8 @@ It is designed to be **backup-first**, **dry-run by default**, and easy to exten
 - Supports Python, JavaScript/TypeScript, Go, and Java
 - Detects unused imports, variables, functions, and classes where confidence is high
 - Generates markdown reports for audits and pull requests
+- Fits neatly into CI review flows and markdown-first code review workflows
+- Plays nicely with protected-branch guardrails during review
 - Creates backups before modifying files
 - Uses a modular parser architecture so contributors can add more languages
 
